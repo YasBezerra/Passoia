@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+main{
+
+    h2 {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+}
+
+.cards img {
+    display:inline;
+    width: 22%;
+    height: 50%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    }
