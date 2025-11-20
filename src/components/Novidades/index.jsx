@@ -1,11 +1,11 @@
 import "./novidades.scss"
-import banner_novidades from "../../assets/banner_novidades.png"
+import bannernovidades from "../../assets/bannernovidades.png"
 
 function Novidades(){
     return(
         <main>
             <h2>NOVIDADES PARA VOCÊ</h2>
-                <img src={banner_novidades} alt="imagem do banner de novidades" />
+                <img className="bannernovidades" src={bannernovidades} alt="imagem do banner de novidades" />
         </main>
 
     )
