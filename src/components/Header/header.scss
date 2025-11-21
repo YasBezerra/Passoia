@@ -1,8 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px;
+    font-family: 'Roboto', sans-serif;
 
     ul{
         display: flex;
@@ -11,6 +14,9 @@ header{
         justify-content: space-around;
         flex-wrap: wrap;
         cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
     }
 
     .logo img{

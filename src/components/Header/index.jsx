@@ -9,7 +9,7 @@ function Header(){
             <ul>
                 <li>LOOKS</li>
                 <li>LANÇAMENTOS</li>
-                <li>NOVIDADE</li>
+                <li>NOVIDADES</li>
             </ul>
         </header>
     )

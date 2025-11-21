@@ -9,6 +9,7 @@ h2 {
     margin: 5%;
     text-align: center;
     font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
 
     
 }
@@ -72,16 +73,21 @@ button {
     h3{
         margin-bottom: 5%;
         font-size: 1.4rem;
+        font-family: 'Roboto', sans-serif;
     }
 
     h4 {
         font-size: 1.2rem;
         margin-bottom: 3%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
     }
 
     .subtitulo {
         font-size: 0.8rem;
         margin-bottom: 3%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
     }
 
     .descricao {
@@ -89,6 +95,77 @@ button {
         word-wrap: break-word;
         overflow-wrap: break-word;
         font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
         
     }
+}
+
+@media (max-width: 768px) {
+
+
+h2 {
+font-size: 1.4rem;
+margin-top: 10%;
+}
+
+.container {
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+padding: 5%;
+}
+
+.batons {
+display: none;
+}
+
+.imgcentral img {
+width: 220px;
+height: auto;
+margin: 0 auto;
+display: block;
+}
+
+.info {
+width: 100%;
+border-left: none;
+border-right: none;
+border-bottom: none;
+text-align: center;
+padding: 5%;
+}
+
+.info img {
+margin: 0 auto 10px auto;
+display: block;
+}
+
+.info h3 {
+font-size: 1.1rem;
+margin-bottom: 10px;
+}
+
+.info .subtitulo {
+margin-bottom: 10px;
+font-size: 0.9rem;
+}
+
+.info button img {
+width: 35px;
+}
+
+.info button {
+margin: 0 5px 15px 5px;
+}
+
+.info h4 {
+margin: 15px 0 10px 0;
+font-size: 1rem;
+}
+
+.info .descricao {
+font-size: 0.9rem;
+line-height: 1.4;
+padding: 0 5px;
+}
 }
