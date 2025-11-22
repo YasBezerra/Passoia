@@ -35,7 +35,7 @@ Os principais desafios que enfrentei foram:
 
 ## Como enfrentei esses desafios
 
-* Para superar essas dificuldades, utilizei as seguintes estratégias:
+Para superar essas dificuldades, utilizei as seguintes estratégias:
 
 * Testei o layout constantemente no modo responsivo do navegador.
 
