@@ -92,3 +92,55 @@
   height: 35px;         
   object-fit: contain;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2%;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+    margin-bottom: 5px !important;
+    white-space: normal;
+    margin-bottom: 2%;
+    
+  }
+
+  .atendimento {
+    margin-left: 0 !important;
+
+    li {
+      font-size: 0.8rem !important;
+      margin-bottom: 1%;
+    }
+  }
+
+  .formasDePagamento {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    width: 100% !important;
+    margin-left: 0 !important;
+
+    li {
+      width: 45%; 
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      width: 35px;
+      height: auto;
+    }
+  }
+
+  .redes img {
+    width: 28px;
+    height: auto;
+  }
+}

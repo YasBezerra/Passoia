@@ -1,5 +1,6 @@
 import "./header.scss"
 import logo from "../../assets/logo.png"
+import icon from "../../assets/icon.png"
 
 
 function Header(){
@@ -11,6 +12,9 @@ function Header(){
                 <li>LANÇAMENTOS</li>
                 <li>NOVIDADES</li>
             </ul>
+            
+        <img src={icon} className="menuMobile" alt="ícone menu" />
+            
         </header>
     )
 }
